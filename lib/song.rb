@@ -2,7 +2,8 @@ require 'pry'
 
 class Song
   attr_accessor :name, :artist, :new_by_filename
-
+  @@all = []
+  
   def initialize(name)
     @name = name 
   end
